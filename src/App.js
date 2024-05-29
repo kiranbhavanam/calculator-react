@@ -5,6 +5,8 @@ import EventListners from "./example/EventListners.jsx";
 import ParentProp from "./example/ParentProp.jsx";
 import UseEffect from "./example/UseEffect.jsx";
 import UseReducer from "./example/UseReducer.jsx";
+import UseRef from "./example/UseRef.jsx";
+import UseLayoutEffect from "./example/UseLayoutEffect.jsx";
 // import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 
 function App() {
@@ -14,7 +16,7 @@ function App() {
     <div className="App">
       {/* <ParentProp></ParentProp> */}
       {/* <UseEffect /> */}
-      <UseReducer/>
+      <UseLayoutEffect/>
     </div>
   );
 }

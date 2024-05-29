@@ -1,8 +1,8 @@
 import React from "react";
 
-function ChildProp(props) {
-  console.log(props.car);
-  const { name, price, year, model } = props.car;
+function ChildProp({car}) {
+  console.log(car);
+  const { name, price, year, model } = car;
   return (
     <div>
       {/* <div>ChildProp {name}</div>
