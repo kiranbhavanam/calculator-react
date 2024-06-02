@@ -7,6 +7,7 @@ import UseEffect from "./example/UseEffect.jsx";
 import UseReducer from "./example/UseReducer.jsx";
 import UseRef from "./example/UseRef.jsx";
 import UseLayoutEffect from "./example/UseLayoutEffect.jsx";
+import UseContext from "./example/UseContext.jsx";
 // import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 
 function App() {
@@ -16,7 +17,8 @@ function App() {
     <div className="App">
       {/* <ParentProp></ParentProp> */}
       {/* <UseEffect /> */}
-      <UseLayoutEffect/>
+      {/* <UseLayoutEffect/> */}
+      <UseContext/>
     </div>
   );
 }

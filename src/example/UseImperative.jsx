@@ -3,7 +3,7 @@ import React, { forwardRef, useImperativeHandle, useState } from "react";
 const UseImperative = forwardRef((props, ref) => {
   const [visible, setVisible] = useState(false);
   useImperativeHandle(ref, () => ({
-    const modifyVisibility=()=> {
+    modifyVisibility(){
       setVisible(!visible);
     },
   }));
